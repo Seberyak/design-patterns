@@ -1,11 +1,10 @@
-import { NotEater } from '../shared/not-eater';
 import { BaseDuck } from './base-duck';
-import { NotFlier } from '../shared/not-flier';
+import { IEatable, IFlyable } from '../shared/interfaces';
 
 export class RubberDuck extends BaseDuck {
   constructor(
-    protected readonly notFlier: NotFlier,
-    protected readonly notEater: NotEater,
+    protected readonly notFlier: IFlyable,
+    protected readonly notEater: IEatable,
   ) {
     super();
   }

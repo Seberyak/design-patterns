@@ -9,6 +9,7 @@ import { NorthDuck } from './variations/north-duck';
 import { RubberDuck } from './variations/rubber-duck';
 import { BrokenRubberDuck } from './variations/broken-rubber-duck';
 
+// behavior injection helps to avoid inheritance
 const beansEater = new BeansEater();
 const notFlier = new NotFlier();
 const silentQuackable = new SilentQuackable();

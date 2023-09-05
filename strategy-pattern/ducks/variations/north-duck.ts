@@ -1,8 +1,8 @@
 import { BaseDuck } from './base-duck';
-import { SilentQuackable } from '../shared/silent-quackable';
+import { IQuackable } from '../shared/interfaces';
 
 export class NorthDuck extends BaseDuck {
-  constructor(private readonly notQuacker: SilentQuackable) {
+  constructor(private readonly notQuacker: IQuackable) {
     super();
   }
   quack() {

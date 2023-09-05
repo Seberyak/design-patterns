@@ -1,8 +1,8 @@
 import { BaseDuck } from './base-duck';
-import { BeansEater } from '../shared/beans-eater';
+import { IEatable } from '../shared/interfaces';
 
 export class ForestDuck extends BaseDuck {
-  constructor(private readonly beansEater: BeansEater) {
+  constructor(private readonly beansEater: IEatable) {
     super();
   }
 

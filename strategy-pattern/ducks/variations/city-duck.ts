@@ -1,11 +1,10 @@
 import { BaseDuck } from './base-duck';
-import { BeansEater } from '../shared/beans-eater';
-import { NotFlier } from '../shared/not-flier';
+import { IEatable, IFlyable } from '../shared/interfaces';
 
 export class CityDuck extends BaseDuck {
   constructor(
-    private readonly beansEater: BeansEater,
-    private readonly notFlier: NotFlier,
+    private readonly beansEater: IEatable,
+    private readonly notFlier: IFlyable,
   ) {
     super();
   }
