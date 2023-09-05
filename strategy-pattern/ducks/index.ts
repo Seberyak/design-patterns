@@ -1,12 +1,12 @@
+import { NotFlier } from './shared/not-flier';
+import { NotEater } from './shared/not-eater';
+import { BeansEater } from './shared/beans-eater';
+import { SilentQuackable } from './shared/silent-quackable';
 import { DefaultDuck } from './variations/default-duck';
 import { ForestDuck } from './variations/forest-duck';
-import { BeansEater } from './shared/beans-eater';
 import { CityDuck } from './variations/city-duck';
-import { NotFlier } from './shared/not-flier';
 import { NorthDuck } from './variations/north-duck';
-import { SilentQuackable } from './shared/silent-quackable';
 import { RubberDuck } from './variations/rubber-duck';
-import { NotEater } from './shared/not-eater';
 import { BrokenRubberDuck } from './variations/broken-rubber-duck';
 
 const beansEater = new BeansEater();
