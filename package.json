@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "reflect-metadata": "^0.1.13",
+    "@faker-js/faker": "^8.0.1",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
   },
